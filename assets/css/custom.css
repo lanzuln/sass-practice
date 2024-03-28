@@ -20,7 +20,7 @@ h6 {
 }
 
 .container {
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) {
@@ -89,6 +89,112 @@ h6 {
 #header_area .top_header_area p i {
   display: inline-block;
   margin-right: 8px;
+}
+#header_area .main_header {
+  background: #fff;
+  padding: 25px 0;
+}
+#header_area .main_header .logo_area {
+  flex-basis: 30%;
+}
+#header_area .main_header .main_menu {
+  flex-basis: 70%;
+  margin-top: 10px;
+}
+#header_area .main_header .main_menu ul {
+  text-align: right;
+  display: flex;
+  justify-content: end;
+}
+#header_area .main_header .main_menu ul li {
+  margin-left: 25px;
+}
+#header_area .main_header .main_menu ul li a {
+  color: #11184f;
+  font-size: 16px;
+  font-weight: 600;
+}
+#header_area .main_header .main_menu ul li a:hover {
+  color: #eb7966;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  #header_area .main_header .main_menu {
+    background: #eb7966;
+    width: 100%;
+    margin-left: -50px;
+    transition: all 0.4s;
+    overflow: hidden;
+    opacity: 0;
+  }
+  #header_area .main_header .main_menu ul {
+    flex-direction: column;
+    text-align: left;
+  }
+  #header_area .main_header .main_menu ul li {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  #header_area .main_header .main_menu ul li:last-child {
+    margin-bottom: 0;
+  }
+  #header_area .main_header .main_menu ul li a {
+    color: #fff;
+    display: block;
+    padding: 10px 15px;
+  }
+  #header_area .main_header .main_menu ul li a:hover {
+    background: #11184f;
+    color: #fff;
+  }
+  #header_area .main_header .main_menu.open {
+    margin-left: 0px;
+    overflow: visible;
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  #header_area .inner {
+    display: block;
+  }
+  #header_area .top_header_area .address,
+  #header_area .top_header_area .phone_number,
+  #header_area .top_header_area .email_address {
+    display: none;
+  }
+  #header_area .top_header_area .socila_area ul {
+    text-align: center;
+  }
+  #header_area .top_header_area .mobile_bars {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  #header_area .top_header_area .mobile_bars i {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  #header_area .main_header .logo_area {
+    width: 200px;
+    margin: 0 auto;
+  }
+  #hero_area .inner {
+    flex-direction: column;
+  }
+  #hero_area .admin_info {
+    flex-basis: 100%;
+    padding: 20px;
+    order: 2;
+  }
+  #hero_area .admin_info h2 {
+    font-size: 45px;
+  }
+  #hero_area .admin_image {
+    order: 1;
+    flex-basis: 100%;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */

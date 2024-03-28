@@ -35,7 +35,7 @@ h6 {
 $small: 200px;
 $medium: 767px;
 .container {
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
   @media only screen and (min-width: $small) and (max-width: $medium) {
     width: 96%;
