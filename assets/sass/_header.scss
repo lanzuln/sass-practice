@@ -1,0 +1,23 @@
+#header_area {
+    // Top Header Area Style
+  .top_header_area {
+    background: $pColor;
+    padding: $paddingSM;
+    position: relative;
+    .mobile_bars {
+      display: none;
+    }
+    p {
+      font: {
+        size: 14px;
+        weight: $fontWMD;
+      }
+      color: $whiteColor;
+      margin: 8px 0 0;
+      i {
+        display: inline-block;
+        margin-right: 8px;
+      }
+    }
+  }
+}

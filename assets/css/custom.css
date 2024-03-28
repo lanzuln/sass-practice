@@ -1,0 +1,60 @@
+body,
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+  margin: 0 0 15px;
+  line-height: 1.2em;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .container {
+    width: 96%;
+  }
+}
+
+.paddingXL {
+  padding: 60px 0;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .paddingXL {
+    padding: 25px 0;
+  }
+}
+
+#header_area .top_header_area {
+  background: #eb7966;
+  padding: 10px 0;
+  position: relative;
+}
+#header_area .top_header_area .mobile_bars {
+  display: none;
+}
+#header_area .top_header_area p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin: 8px 0 0;
+}
+#header_area .top_header_area p i {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+/*# sourceMappingURL=custom.css.map */
