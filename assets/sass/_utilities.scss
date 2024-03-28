@@ -50,3 +50,38 @@ $paddingSM: 10px 0;
     padding: 25px 0;
   }
 }
+// Margin
+.m-top {
+  margin-top: 45px;
+  @media only screen and (min-width: $small) and (max-width: $medium) {
+    margin-top: 25px;
+  }
+}
+
+// Socila Area Style
+.socila_area {
+  ul {
+    text-align: right;
+    li {
+      margin-left: 15px;
+    }
+    a {
+      display: block;
+      background: $sColor;
+      width: 40px;
+      height: 40px;
+      font-size: 15px;
+      color: $bkColor;
+      text-align: center;
+      padding-top: 8px;
+      border-radius: 30px;
+      i {
+        margin: 0;
+      }
+      &:hover {
+        background: $bkColor;
+        color: $sColor;
+      }
+    }
+  }
+}

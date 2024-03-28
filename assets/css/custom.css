@@ -38,6 +38,40 @@ h6 {
   }
 }
 
+.m-top {
+  margin-top: 45px;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .m-top {
+    margin-top: 25px;
+  }
+}
+
+.socila_area ul {
+  text-align: right;
+}
+.socila_area ul li {
+  margin-left: 15px;
+}
+.socila_area ul a {
+  display: block;
+  background: #f4c9c2;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  color: #11184f;
+  text-align: center;
+  padding-top: 8px;
+  border-radius: 30px;
+}
+.socila_area ul a i {
+  margin: 0;
+}
+.socila_area ul a:hover {
+  background: #11184f;
+  color: #f4c9c2;
+}
+
 #header_area .top_header_area {
   background: #eb7966;
   padding: 10px 0;
